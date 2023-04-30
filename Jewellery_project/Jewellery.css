@@ -1,0 +1,1216 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+nav{
+		background:#2c332f;
+		height: 80px;
+		width: 100%;
+		float: left;
+		position: fixed;
+		z-index: 200;
+		}
+
+	label.logotwo{
+		height: 100%;
+		width: 50%;
+		float: left;
+		display: none;
+	}
+
+	.logothree{
+		height: 100%;
+		width: 100%;
+		float: left;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	nav ul{
+		float: right;
+		margin-right: 20px;
+	}
+
+	nav ul li{
+		display: inline-block;
+		line-height: 80px;
+		margin-right: 0 5px;
+		lis
+	}
+
+	nav ul li a{
+		color: white;
+		font-size: 17px;
+		padding: 7px 13px;
+		border-radius:3px ;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	a:active,a:hover{
+		background: #1b9bff;
+		transition: .5s;
+	}
+
+	.checkbtn{
+		font-size: 30px;
+		color: white;
+		float: right;
+		line-height: 80px;
+		margin-right: 40px;
+		cursor: pointer;
+		display: none;
+	}
+
+	#check{
+		display: none;
+	}
+
+
+	.second{
+	height: 60px;
+	width: 100%;
+	float: left;
+	margin-top: 80px;
+}
+
+.searchbar{
+	height:100%;
+	max-width: 15%;
+	float: left;
+}
+
+.logo{
+	height: 100%;
+	width: 100%;
+	float: left;
+	padding: 5px;
+}
+
+.find{
+	height:100%;
+	width: 60%;
+	float: left;
+}
+
+
+.find input[type=text] {
+  padding: 10px;
+  border:1px solid #2c332f;
+  font-size: 17px;
+  border-radius: 5px;
+  margin-right: 5px;
+  width: 65%;
+  margin-top: 5px;
+  margin-left: 60px;
+}
+
+/* Style the search button */
+.find button {
+	width: 20%;
+  background-color:#2c332f;
+  color: white;
+  padding: 11px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+
+
+/* Add hover effect to the search button */
+.find button:hover {
+  background:#183153;
+}
+
+.name{
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+
+.cart{
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+
+.slider{
+		width: 100%;
+		float: left;
+		height: auto;
+		}
+
+
+	.after_slider{
+		height:auto; 
+		width: 100%;
+		float: left; 
+	background-image:url(https://gloxy-react.envytheme.com/static/cta-bg-img-39434724a310b9e24e6c1b0f4e4f7773.jpg);
+	background-size: 100% 100%;
+}
+
+
+	.model1{
+		height: 400px;
+		width: 50%;
+		float: left;
+		margin-top: 50px;
+}
+
+	.model2{
+		height: 100%;
+		width: 60%;
+		float: left;
+		background-color:#2c332f;
+	}
+
+	.model3{
+		height: 300px;
+		width: 400px;
+		float: left;
+		position: absolute;
+		margin-top: 50px;
+		margin-left: 150px;
+	}
+
+	.text1{
+		font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 150px;
+	}
+
+	
+
+	.model_text{
+		height: 400px;
+		width: 50%;
+		float: left;
+		margin-top: 50px;
+	}
+
+
+	.model4{
+		height: 100%;
+		width: 60%;
+		float:right;
+		background-color:#2c332f;
+	}
+
+	.model5{
+		height: 300px;
+		width: 400px;
+		float: left;
+		position: absolute;
+		margin-top: 50px;
+		margin-left: -150px;
+	}
+
+	.text2{
+		font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 120px;
+		margin-left: 100px;
+	}
+
+	.shop_now{
+		margin-left: 100px;
+
+	}
+
+
+	.celebrity{
+		height: 500px;
+		width: 100%;
+		float: left;
+		background-color:#2c332f ;
+		margin-top: 10px;
+	}
+
+	.celebrity_word{
+		font-size: 30px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.celebrity_one{
+		height: 300px;
+		width: 500px;
+		float: left;
+		background-color: white;
+		margin-left: 80px;
+		overflow: hidden;
+	}
+
+	.celebrity_two{
+		height: 300px;
+		width: 500px;
+		float: right;
+		background-color:white;
+		margin-right:80px;
+		overflow: hidden;
+	}
+
+	.celebrity_img{
+       height: 100%;
+       width: 50%;
+       float: left;
+	}
+
+	.text5{
+		text-align: center;
+		font-weight: bold;
+		margin-top: 40px;
+	}
+
+	.text6{
+		text-align:center;
+		margin-top: 30px;
+
+	}
+
+	.view_one{
+    width: 120px;
+    height: 100%;
+    margin-left:10px;
+    margin-top: 20px;
+	}
+
+
+	.modern1{
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+ 
+	}
+
+	h2{
+  text-align: center;
+  margin-top: 50px;
+}
+
+p{
+	text-align: center;
+}
+
+.ftp1{
+	max-width:200px;
+  margin-left:50px;
+  margin-top: 50px;
+  float: left;
+}
+
+.ftp1 img{
+  width: 100%;
+	height: 100%;
+}
+
+
+
+	.circle{
+		height: 80px;
+		width: 80px;
+		background-color:white;
+		border-radius: 50%;
+		margin-left:40%;
+		margin-top: 20px;
+		border: 2px dotted black;
+		animation: border 20s linear infinite;
+		transform: scale(1.1);
+
+
+	}
+
+	.circle i{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 20px;
+	color:#2c332f ;
+}
+
+
+	.first1 h1{
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.first1 p{
+	margin-top: 20px;
+	text-align: center;
+	color: grey;
+
+}
+
+.first2 h1{
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.first2 p{
+	margin-top: 20px;
+	text-align: center;
+	color: grey;
+
+}
+
+.first3 h1{
+	text-align: center;
+	font-size: 25px;
+
+}
+
+.first3 p{
+	margin-top: 20px;
+	text-align: center;
+	color: grey;
+
+}
+
+.first1{
+		height: 270px;
+		width: 250px;
+		float: left;
+		background-color:#fdfdfd;
+	    margin-left:70px;
+	    margin-top: 30px;
+	    border-radius:10px;
+	    border: 0.1px solid lightgrey;
+	}
+
+	.first2{
+		height: 270px;
+		width: 250px;
+		float: left;
+		background-color:#fdfdfd;
+	    margin-left:50px;
+	    margin-top: 30px;
+
+	    border-radius:10px;
+	    border: 0.1px solid lightgrey;
+	}
+
+	.first3{
+		height: 270px;
+		width: 250px;
+		float: left;
+		background-color:#fdfdfd;
+	    margin-left:50px;
+	    margin-top: 30px;
+
+	    border-radius:10px;
+	    border: 0.1px solid lightgrey;
+	}
+
+	.last{
+		    height: 50px;
+				width: 100%;
+				float: left;
+				background-color:#b3c2a3 ;
+			 }
+
+	.last p{
+					font-weight: bold;
+					color: white;
+					margin-top:0px;
+					}
+
+.last1{
+	height: 400px;
+	width: 25%;
+	float: left;
+	background-color:#2c332f;
+	
+}
+
+.last1 img{
+	height: 30%;
+	width: 90%;
+	float: left;
+	margin-top:0px;
+}
+
+.last1 ul{
+	margin-left: 20px;
+}
+
+.last1 ul li{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: white;
+	margin-top: 5px;
+	list-style-type: none;
+}
+
+.last1 ul li i{
+	font-size: 20px;
+	color: black;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.last1 ul li i:hover{
+						color:#e74c14 ;
+					}
+
+.last2{
+	height: 400px;
+	width: 25%;
+	float: left;
+	background-color:#2c332f;
+
+}
+
+.last2 ul{
+	
+	float: left;
+	margin-left: 10px;
+
+}
+
+.last2 ul li{
+	list-style-type:none;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 10px;
+	display: block;
+
+}
+
+.last3{
+	height: 400px;
+	width: 25%;
+	float: left;
+	background-color:#2c332f;
+
+}
+
+.last3 ul{
+	float: left;
+	margin-left: 10px;
+}
+
+.last3 ul li{
+	list-style-type: none;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 10px;
+}
+
+
+.last4{
+	height: 400px;
+	width: 25%;
+	float: left;
+	background-color:#2c332f;
+}
+
+.last4 ul{
+	float: left;
+	margin-left: 10px;
+
+}
+
+.last4 ul li{
+	list-style-type: none;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 10px;
+
+}
+
+
+/*Start media Query*/
+
+@media (max-width: 420px) {
+
+	.find{
+	       height:100%;
+	       width: 50%;
+	       float: left;
+	       
+       }
+
+  .find input[type=text] {
+ 
+  margin-right:0px;
+  width: 72%;
+  margin-top: 5px;
+  margin-left:0px;
+}
+
+
+
+.cart{
+	height: 100%;
+	width: 50%;
+	float: left;
+	
+}
+
+.nonelogo{
+	display: none;
+}
+
+.name{
+	display: none;
+}
+
+
+.model1{
+		height: 400px;
+		width: 100%;
+		float: left;
+		margin-top: 50px;
+		background-color: transparent;
+
+	}
+
+	.model2{
+		height: 100%;
+		width: 100%;
+		float: left;
+		background-color:transparent;
+	}
+
+	.model3{
+		height:150px;
+		width: 250px;
+		float: left;
+		position: absolute;
+		margin-top:10px;
+		margin-left:50px;
+	}
+
+
+	.model_text{
+		
+		display: none;
+	}
+
+	
+
+	.textn1{
+			font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 170px;
+		margin-left: 10px;
+	}
+
+	.textn2{
+			font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 170px;
+		margin-left: 10px;
+	}
+
+	.model5{
+		height:150px;
+		width: 250px;
+		float: left;
+		position: absolute;
+		margin-top:10px;
+		margin-left:50px;
+	}
+
+	.shop_now{
+		margin-left:0px;
+	}
+
+	.model4{
+		height: 100%;
+		width: 100%;
+		float: left;
+		background-color:#2c332f;
+	}
+
+	.celebrity_one{
+		height: 230px;
+		width: 330px;
+		float: left;
+		background-color: white;
+		margin-left:10px;
+	}
+
+	.celebrity_two{
+		height: 230px;
+		width: 330px;
+		float:left;
+		background-color:white;
+		margin-left:10px;
+		margin-top: 10px;
+	}
+
+	
+
+	.celebrity{
+		height:650px;
+	}
+
+	.ftp1{
+	width:250px;
+	height:150px;
+  margin-left:70px;
+  margin-top: 0px;
+  float: left;
+}
+
+	.first1{
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+
+	.first2{
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+
+	.first3{
+		margin-top: 20px;
+		margin-left: 50px;
+		
+	}
+
+		.last1{
+		width: 50%;
+
+	}
+
+	.last2{
+    width: 50%;
+	}
+
+	.last2 ul li{
+		font-size: 15px;
+	}
+
+	.last3{
+		width: 50%;
+
+	}
+
+	.last3 ul li{
+		font-size: 15px;
+	}
+
+	.last4{
+    width: 50%;
+	}
+
+	.last4 ul li{
+		font-size: 15px;
+	}
+
+
+
+
+	}
+
+
+
+	@media (min-width:420px) and (max-width:600px){
+
+
+		.find{
+	       height:100%;
+	       width: 65%;
+	       float: left;
+	       
+       }
+
+  .find input[type=text] {
+ 
+  margin-right:0px;
+  width: 75%;
+  margin-top: 5px;
+  margin-left:0px;
+}
+
+.cart{
+	height: 100%;
+	width: 35%;
+	float: left;
+	
+}
+
+.nonelogo{
+	display: none;
+}
+
+.name{
+	display: none;
+}
+
+.model1{
+		height: 400px;
+		width: 100%;
+		float: left;
+		margin-top: 50px;
+
+	}
+
+	.model2{
+		height: 100%;
+		width: 100%;
+		float: left;
+		background-color:#2c332f;
+	}
+
+	.model3{
+		height:150px;
+		width: 200px;
+		float: left;
+		position: absolute;
+		margin-top:10px;
+		margin-left:10px;
+	}
+
+
+	.model_text{
+		
+		display: none;
+	}
+
+	.textn1{
+		font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 170px;
+		margin-left: 10px;
+	}
+
+	.textn2{
+		font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 170px;
+		margin-left: 10px;
+	}
+
+	.model4{
+		height: 100%;
+		width: 100%;
+		float: left;
+		background-color:#2c332f;
+	}
+
+	.model5{
+		height:150px;
+		width: 200px;
+		float: left;
+		position: absolute;
+		margin-top:10px;
+		margin-left:10px;
+	}
+
+	.shop_now{
+		margin-left:0px;
+	}
+
+	.celebrity_one{
+		height: 200px;
+		width: 400px;
+		float: left;
+		background-color: white;
+		margin-left:10px;
+	}
+
+	.celebrity_two{
+		height: 200px;
+		width: 400px;
+		float:left;
+		background-color:white;
+		margin-left:10px;
+		margin-top: 10px;
+	}
+
+	.celebrity{
+		height:620px;
+	}
+
+	.first1{
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	.first2{
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	.first3{
+		margin-top: 20px;
+		margin-left: 30px;
+		
+	}
+
+	.last1{
+		width: 50%;
+
+	}
+
+	.last2{
+    width: 50%;
+	}
+
+	.last3{
+		width: 50%;
+
+	}
+
+	.last4{
+    width: 50%;
+	}
+
+
+
+	}
+
+	
+	@media (min-width:600px) and (max-width:900px){
+
+		.find{
+	       height:100%;
+	       width: 58%;
+	       float: left;
+	       
+       }
+
+  .find input[type=text] {
+ 
+  margin-right:0px;
+  width: 75%;
+  margin-top: 5px;
+  margin-left:0px;
+}
+
+.cart{
+	height: 100%;
+	width: 27%;
+	float: left;
+	
+}
+
+.nonelogo{
+	display: none;
+}
+
+.name{
+	display: none;
+}
+
+.textn1{
+	display: none;
+}
+
+
+.model1{
+		height: 400px;
+		width: 50%;
+		float: left;
+		margin-top: 50px;
+
+	}
+
+	.model2{
+		height: 100%;
+		width: 60%;
+		float: left;
+		background-color:#2c332f;
+	}
+
+	.model3{
+		height:200px;
+		width: 250px;
+		float: left;
+		position: absolute;
+		margin-top:120px;
+		margin-left:20px;
+	}
+
+
+	.text1{
+		font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 150px;
+	}
+
+	
+
+	.model_text{
+		height: 400px;
+		width: 50%;
+		float: left;
+		margin-top: 50px;
+	}
+
+	.textn2{
+		display: none;
+	}
+
+	.model5{
+		height: 200px;
+		width: 250px;
+		float: left;
+		position: absolute;
+		margin-top: 120px;
+		margin-left:-110px;
+	}
+
+	.text2{
+		font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 70px;
+		margin-left: 10px;
+	}
+
+	.shop_now{
+		margin-left: 10px;
+
+	}
+
+	.celebrity_one{
+		height: 200px;
+		width: 280px;
+		float: left;
+		background-color: white;
+		margin-left:10px;
+	}
+
+	.celebrity_two{
+		height: 200px;
+		width: 280px;
+		float: right;
+		background-color:white;
+		margin-right:10px;
+	}
+
+	.first1{
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	.first2{
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+
+	.first3{
+		margin-top: 20px;
+		margin-left: 30px;
+		
+	}
+
+	.last3 ul li{
+		font-size: 15px;
+	}
+
+	.last4 ul li{
+		font-size: 12px;
+	}
+
+}
+
+
+	@media (min-width:900px) and (max-width:1200px){
+
+    .find{
+	       height:100%;
+	       width: 50%;
+	       float: left;
+	       
+       }
+
+  .find input[type=text] {
+ 
+  margin-right:0px;
+  width: 75%;
+  margin-top: 5px;
+  margin-left:0px;
+}
+
+.cart{
+	height: 100%;
+	width: 35%;
+	float: left;
+	
+}
+
+.name{
+	display: none;
+}
+
+.textn1{
+	display: none;
+}
+
+
+.model1{
+		height: 400px;
+		width: 50%;
+		float: left;
+		margin-top: 50px;
+
+	}
+
+	.model2{
+		height: 100%;
+		width: 60%;
+		float: left;
+		background-color:#2c332f;
+	}
+
+	.model3{
+		height:250px;
+		width: 300px;
+		float: left;
+		position: absolute;
+		margin-top: 50px;
+		margin-left: 150px;
+	}
+
+	.text1{
+		font-family: 'Courgette', cursive;
+		color: gray;
+		margin-top: 150px;
+	}
+
+	
+
+	.model_text{
+		height: 400px;
+		width: 50%;
+		float: left;
+		margin-top: 50px;
+	}
+
+
+	.textn2{
+	display: none;
+}
+
+.celebrity_one{
+		height: 250px;
+		width: 420px;
+		float: left;
+		background-color: white;
+		margin-left:10px;
+	}
+
+	.celebrity_two{
+		height: 250px;
+		width: 420px;
+		float: right;
+		background-color:white;
+		margin-right:10px;
+	}
+
+		.first1{
+		margin-top: 20px;
+	}
+
+	.first2{
+		margin-top: 20px;
+		margin-left: 70px;
+	}
+
+	.first3{
+		margin-top: 20px;
+		margin-left: 70px;
+
+	}
+
+}
+
+
+@media(min-width:1200px){
+
+		.textn1{
+	display: none;
+}
+
+.textn2{
+	display: none;
+}
+
+.view_one{
+	margin-left: 80px;
+}
+
+	}
+
+
+
+/*Special navbar media query*/
+
+@media(max-width:952px){
+		label.logo{
+			font-size: 30px;
+			padding-left: 50px;
+		}
+
+		nav ul li a{
+			font-size: 16px;
+		}
+	}
+
+	@media(max-width:858px){
+		.checkbtn{
+			display: block;
+		}
+			label.logotwo{
+			display: block;
+		}
+
+		nav ul{
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background: #2c3e50;
+			top: 80px;
+			left: -100%;
+			text-align:center;
+			transition:all.5s ;
+			z-index: 300;
+			
+
+		}
+		nav ul li{
+			display: block;
+			margin: 50px 0;
+			line-height: 30px;
+			 
+			
+		}
+		nav ul li a{
+			font-size: 20px;
+		}
+		a:hover,a.active{
+			background: none;
+			color:#0082e6 ;
+
+		}
+		#check:checked ~ ul{
+			left: 0;
+
+		}
+
+		.searchbar{
+			display: none;
+		}
+
+		}
